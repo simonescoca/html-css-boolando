@@ -14,27 +14,45 @@
 }
 
 p.brand{
-
+    color: rgb(109, 109, 109);
+    font-weight: 200;
 }
 
 h1.name{
-
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
 }
 
-p.discount-price{
-
+span.discount-price{
+    color: red;
+    font-size: 0.9rem;
+    font-weight: 700;
 }
 
-p.full-price{
-
+span.full-price{
+    color: rgb(109, 109, 109);
+    font-size: 0.9rem;
+    font-weight: 200;
+    text-decoration: line-through;
 }
 
-div.discont-perc{
+div.img-sticker{
+    position: absolute;
+    height: ;
+    width: ;
+    background-color: ;
+    color: ;
+}
 
+div.discount{
+    left: ;
+    bottom: ;
 }
 
 div.sustainability{
-
+    left: ;
+    bottom: ;
 }
 
 /* HEADER */
@@ -75,10 +93,44 @@ header section:last-child{
     gap: 10px;
 }
 
-header section > *{
+header section > *{ /**/
     border: 1px dashed white;
 }
 
 header img.logo{
-    width: 30%;
+    width: 160px;
+}
+
+/* MAIN */
+
+main{
+    margin: 150px auto 0;
+    width: 70%;
+}
+
+main section{
+    height: 700px;
+    width: calc(100% / 3);
+    border: 1px dashed black; /**/
+}
+
+main div.image{
+    height: 85%;
+    border: 1px dashed black; /**/
+    position: relative;
+}
+
+main div.description{
+    height: 15%;
+    border: 1px dashed black; /**/
+    flex-direction: column;
+}
+
+main div.image img{
+    width: 90%;
+    margin: auto;
+}
+
+main div.description{
+    padding: 0 5%;
 }
