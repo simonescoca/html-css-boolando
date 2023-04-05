@@ -80,6 +80,7 @@ header{
     width: 100%;
     position: fixed;
     top: 0;
+    z-index: 5;
 }
 
 header a{
@@ -110,10 +111,6 @@ header section:last-child{
     gap: 10px;
 }
 
-header section > *{ /**/
-    border: 1px dashed white;
-}
-
 header img.logo{
     width: 160px;
 }
@@ -123,23 +120,21 @@ header img.logo{
 main{
     margin: 150px auto 0;
     width: 70%;
+    flex-wrap: wrap;
 }
 
 main section{
     height: 700px;
     width: calc(100% / 3);
-    border: 1px dashed black; /**/
 }
 
 main div.image{
     height: 85%;
-    border: 1px dashed black; /**/
     position: relative;
 }
 
 main div.description{
     height: 15%;
-    border: 1px dashed black; /**/
     flex-direction: column;
 }
 
@@ -162,3 +157,5 @@ main div.image img:last-of-type:hover{
 main div.description{
     padding: 0 5%;
 }
+
+/* FOOTER */
