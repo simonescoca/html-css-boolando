@@ -176,22 +176,20 @@ footer a:hover{
     text-decoration: underline;
 }
 
-footer div:first-child{
+footer div.first{
     width: 50%;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
 
-footer div:last-child{
+footer div.last{
     width: 50%;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
     align-items: flex-end;
+    justify-content: center;
 }
     
-
 footer li{
     list-style: none;
     margin-right: 10px;
