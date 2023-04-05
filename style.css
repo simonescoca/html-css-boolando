@@ -9,6 +9,10 @@
 
 /* STARTER-PACK */
 
+body{
+    min-width: 1400px;
+}
+
 .flexbox{
     display: flex;
 }
@@ -39,20 +43,33 @@ span.full-price{
 
 div.img-sticker{
     position: absolute;
-    height: ;
-    width: ;
-    background-color: ;
-    color: ;
+    padding: 3px 10px;
+    color: white;
+    font-size: 0.85rem;
 }
 
 div.discount{
-    left: ;
-    bottom: ;
+    left: 5%;
+    bottom: 15%;
+    background-color: red;
 }
 
 div.sustainability{
-    left: ;
-    bottom: ;
+    left: 18.5%;
+    bottom: 15%;
+    background-color: green;
+}
+
+.like-it{
+    position: absolute;
+    top: 5%;
+    right: 8%;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.like-it:hover{
+    color: red;
 }
 
 /* HEADER */
@@ -128,7 +145,18 @@ main div.description{
 
 main div.image img{
     width: 90%;
+    max-height: 96%;
     margin: auto;
+}
+
+main div.image img:last-of-type{
+    position: absolute;
+    top: 2%;
+    left: 5%;
+}
+
+main div.image img:last-of-type:hover{
+    display: none;
 }
 
 main div.description{
