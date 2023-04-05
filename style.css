@@ -41,11 +41,19 @@ div.sustainability{
 
 header{
     background-color: rgb(255, 102, 0);
-    color: white;
     padding: 15px 15%;
     width: 100%;
     position: fixed;
     top: 0;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header section:first-child a:hover{
+    text-decoration: underline;
 }
 
 header section{
