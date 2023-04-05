@@ -159,3 +159,47 @@ main div.description{
 }
 
 /* FOOTER */
+
+footer{
+    background-color: rgb(44, 44, 44);
+    color: white;
+    padding: 30px 15%;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.85rem;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer div:first-child{
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+footer div:last-child{
+    width: 50%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+    
+
+footer li{
+    list-style: none;
+    margin-right: 10px;
+}
+
+div.pill{
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    background-color: white;
+}
