@@ -4,4 +4,73 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* STARTER-PACK */
+
+.flexbox{
+    display: flex;
+}
+
+p.brand{
+
+}
+
+h1.name{
+
+}
+
+p.discount-price{
+
+}
+
+p.full-price{
+
+}
+
+div.discont-perc{
+
+}
+
+div.sustainability{
+
+}
+
+/* HEADER */
+
+header{
+    background-color: rgb(255, 102, 0);
+    color: white;
+    padding: 15px 15%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+header section{
+    width: calc(100% / 3);
+    align-items: center;
+}
+
+header section:first-child{
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+header section:nth-child(2){
+    justify-content: center;
+}
+
+header section:last-child{
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+header section > *{
+    border: 1px dashed white;
+}
+
+header img.logo{
+    width: 30%;
 }
